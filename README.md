@@ -62,6 +62,7 @@ The project is a Flask web application integrated with the Hugging Face model fo
 3. https://learn.microsoft.com/en-us/azure/developer/python/tutorial-containerize-simple-web-app?tabs=web-app-flask
 4. https://stackoverflow.com/questions/72705471/how-to-reference-secrets-in-azure-container-apps
 5. https://learn.microsoft.com/en-us/azure/container-apps/scale-app?pivots=azure-cli
+6. https://huggingface.co/dandelin/vilt-b32-finetuned-vqa
 
 
 
