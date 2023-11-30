@@ -2,7 +2,7 @@
 ## Auto Scaling Flask App Using Azure Container Apps
 
 [Study Not Study](https://studyorstudy.delightfulground-53e5bf44.westus2.azurecontainerapps.io)
-[Youtube Link]()
+[Youtube Link](https://youtu.be/TqL8lJM9T0w)
 
 ### Project Summary 
 
