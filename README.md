@@ -1,5 +1,5 @@
 [![CI](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/actions/workflows/cicd.yml)
-## Auto Scaling Flask App Using Any Serverless Platform
+## Auto Scaling Flask App Using Azure Container Apps
 
 [Study Not Study](https://studyorstudy.delightfulground-53e5bf44.westus2.azurecontainerapps.io)
 [Youtube Link]()
@@ -24,8 +24,8 @@ The project is a Flask web application integrated with the Hugging Face model fo
 #### Docker Containerization:
 - **Dockerfile:** The Dockerfile (`Dockerfile`) is provided to containerize the Flask app
 
-#### Deployment to Azure Web App:
-- **Azure Configuration:** Environment variables are utilized for sensitive information like API tokens. Azure-specific configurations are in place for secure deployment on Azure Web App.
+#### Deployment to Azure Azure Container Apps:
+- **Azure Configuration:** Environment variables are utilized for sensitive information like API tokens. Azure-specific configurations are in place for secure deployment on Azure Container Apps.
 
 ### Functionality and Creativity:
 
@@ -33,11 +33,11 @@ The project is a Flask web application integrated with the Hugging Face model fo
 
 - **User Interaction:** Users can choose to upload an image for prediction or use a default image. The application processes the uploaded image or the default image using the integrated model.
 
-### DockerHub and Azure Web App Deployment:
+### DockerHub and Azure Container Apps Deployment:
 
 - **Azure Container Registry :** The Docker image is hosted on Azure Container Registry
 
-- **Azure Web App Deployment:** The Flask app is successfully deployed on Azure Web App, providing a public endpoint for users to interact with the application.
+- **Azure Container Apps Deployment:** The Flask app is successfully deployed on Azure Container Apps, providing a public endpoint for users to interact with the application.
 
 ### Preparation: 
 1. git clone the repo
