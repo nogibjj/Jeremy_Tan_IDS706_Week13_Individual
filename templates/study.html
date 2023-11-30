@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='study.png') }}">
+</head>
+
+<body>
+    <main>
+        <div class="px-4 py-3 my-2 text-center">
+            <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/study.png') }}"
+                alt="Azure Logo" width="192" height="192" />
+            <h1 class="display-6 fw-bold">Study</h1>
+            <p class="fs-5">
+                Study! Good job.
+            </p>
+            <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg px-4 gap-3">Back to Home</a>
+        </div>
+    </main>
+</body>
+
+</html>
