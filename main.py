@@ -3,9 +3,6 @@ import os
 import requests
 import json
 import base64
-
-load_dotenv()
-
 from flask import (
     Flask,
     redirect,
@@ -14,6 +11,8 @@ from flask import (
     url_for,
     jsonify,
 )
+
+load_dotenv()
 
 app = Flask(__name__)
 API_TOKEN = os.getenv("API_TOKEN")
