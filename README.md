@@ -42,6 +42,7 @@ The project is a Flask web application integrated with the Hugging Face model fo
 - **Embedded Language Model:** The application integrates the Hugging Face VQA model
 
 - **User Interaction:** Users can choose to upload an image for prediction or use a default image. The application processes the uploaded image or the default image using the integrated model.
+  
     <img width="502" alt="Screenshot 2023-12-06 at 11 37 28 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/assets/36715338/69bd08f8-3caf-4197-baf8-1ad9b8abc274">
 
 ### Docker and Azure Container Apps Deployment:
