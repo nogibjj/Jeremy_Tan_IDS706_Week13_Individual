@@ -55,7 +55,7 @@ The project is a Flask web application integrated with the Hugging Face model fo
 - **Azure Container Registry :** The Docker image is hosted on Azure Container Registry
     <img width="1136" alt="Screenshot 2023-12-06 at 11 19 32 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/assets/36715338/1a3a673b-98e2-4763-b9fb-f90c921eb742">
 
-- **Azure Container Apps Deployment:** The Flask app is successfully deployed on Azure Container Apps, providing a public endpoint for users to interact with the application. You can say the image name `studyorstudy` and image tag `20231130201151041148` being deployed with Azure container apps 
+- **Azure Container Apps Deployment:** The Flask app is successfully deployed on Azure Container Apps, providing a public endpoint for users to interact with the application. You can see the image name `studyorstudy` and image tag `20231130201151041148` being deployed with Azure container apps 
     <img width="1047" alt="Screenshot 2023-12-06 at 11 20 30 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/assets/36715338/ae4212df-96ac-42cd-9c61-49deb09c73f5">
 
 ### Preparation: 
