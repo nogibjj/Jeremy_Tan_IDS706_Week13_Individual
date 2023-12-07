@@ -1,7 +1,7 @@
 [![CI](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/actions/workflows/cicd.yml)
 ## Auto Scaling Flask App Using Azure Container Apps
 
-[Study Not Study](https://studyorstudy.delightfulground-53e5bf44.westus2.azurecontainerapps.io)
+[Study Not Study](https://studyorstudy.delightfulground-53e5bf44.westus2.azurecontainerapps.io) | 
 [Youtube Link](https://youtu.be/TqL8lJM9T0w)
 
 ### Project Summary 
@@ -24,8 +24,13 @@ The project is a Flask web application integrated with the Hugging Face model fo
 
 - **Prediction Logic:** Based on model predictions, the app determines whether the person in the image is studying or not. The decision is made by comparing confidence scores for "yes" and "no" answers from the model.
 
+<img width="660" alt="Screenshot 2023-12-06 at 11 42 16 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/assets/36715338/8cd37372-3798-4a4e-bc55-0e82c984fa65">
+
 #### Docker Containerization:
 - **Dockerfile:** The Dockerfile (`Dockerfile`) is provided to containerize the Flask app
+
+<img width="474" alt="Screenshot 2023-12-06 at 11 41 35 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week13_Individual/assets/36715338/6c463505-2194-46ab-989d-20c21ad254a2">
+
 
 #### Deployment to Azure Azure Container Apps:
 - **Azure Configuration:** Environment variables are utilized for sensitive information like API tokens. Azure-specific configurations are in place for secure deployment on Azure Container Apps.
